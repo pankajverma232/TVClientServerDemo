@@ -1,5 +1,5 @@
 //This file outlines the catalogTemplate.
-var stackTemplate = function() {
+var Template = function() {
     this.BASEURL = "http://localhost:8000/"
     return `<?xml version="1.0" encoding="UTF-8" ?>
 <document>
@@ -14,43 +14,6 @@ var stackTemplate = function() {
 <title>Todays Movies</title>
 </banner>
 
-<shelf>
-<section>
-<lockup videoURL="http://www.rwdevcon.com/videos/Ray-Wenderlich-Teamwork.mp4">
-
-<img src="http://localhost:8000/images/ray.png" width="500" height="400" />
-
-<title>Movie 1</title> </lockup>
-<lockup videoURL="http://www.rwdevcon.com/videos/Ryan-Nystrom-Contributing.mp4">
-<img src="${this.BASEURL}images/ryan.png" width="500" height="400" />
-<title>Movie 1</title> </lockup>
-<lockup videoURL="http://www.rwdevcon.com/videos/Matthijs-Hollemans-Math-Isnt-Scary.mp4">
-<img src="${this.BASEURL}images/matthijs.png" width="500" height="400" />
-<title>Movie 1</title> </lockup>
-<lockup videoURL="http://www.rwdevcon.com/videos/Vicki-Wenderlich-Identity.mp4">
-<img src="${this.BASEURL}images/vicki.png" width="500" height="400" />
-<title>Movie 1</title> </lockup>
-
-
-<lockup videoURL="http://www.rwdevcon.com/videos/Alexis-Gallagher-Identity.mp4">
-<img src="${this.BASEURL}images/alexis.png" width="500" height="400" />
-<title>Movie 1</title> </lockup>
-<lockup videoURL="http://www.rwdevcon.com/videos/Marin-Todorov-RW-Folklore.mp4">
-<img src="${this.BASEURL}images/marin.png" width="500" height="400" />
-<title>Movie 1</title> </lockup>
-<lockup videoURL="http://www.rwdevcon.com/videos/Chris-Wagner-Craftsmanship.mp4">
-<img src="${this.BASEURL}images/chris.png" width="500" height="400" />
-<title>Movie 1</title> </lockup>
-<lockup videoURL="http://www.rwdevcon.com/videos/Cesare-Rocchi-Cognition.mp4">
-<img src="${this.BASEURL}images/cesare.png" width="500" height="400" />
-<title>Movie 1</title> </lockup>
-</section>
-</shelf>
-
-
-<banner>
-<title>Other Movies</title>
-</banner>
 
 
 <shelf>
@@ -77,11 +40,7 @@ var stackTemplate = function() {
 
 </shelf>
 
-<shelf>
-<section>
 
-</section>
-</shelf>
 
 </collectionList>
 </stackTemplate>

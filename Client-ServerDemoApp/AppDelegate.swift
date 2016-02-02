@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,TVApplicationControllerDel
         // Override point for customization after application launch.
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         let context = TVApplicationControllerContext()
-        context.javaScriptApplicationURL = NSURL(string: "http://localhost:8000/mainScript.js")!
+        context.javaScriptApplicationURL = NSURL(string: "http://localhost:8000/application.js")!
         context.launchOptions["BASEURL"] = "http://localhost:8000/"
     //    context.launchOptions["TVMLURL"] = "http://localhost:8000/firstScreen.js"
         tvController = TVApplicationController(context: context, window: self.window, delegate: self)

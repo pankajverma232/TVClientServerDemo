@@ -1,16 +1,24 @@
-var compilationTemplate = function(){ return `<?xml version="1.0" encoding="UTF-8" ?>
+var mediaFiles ;
+var info;
+//function init(dict){
+//    mediaFiles = dict.media.mediaFiles;
+//    info = dict.media.info
+//    banner = dict.media.banner;
+//}
+var Template = function(){
+    var dict = this.extra;
+    mediaFile = dict.media.mediaFiles[1];
+    info = dict.media.info
+    return `<?xml version="1.0" encoding="UTF-8" ?>
 <document>
 <compilationTemplate theme="light">
 <list>
 <relatedContent>
 <itemBanner>
-<heroImg src="path to images on your server/Car_Movie_720x1080" />
+<heroImg src= "${mediaFile.banner}" />
 <row>
-<buttonLockup>
-<badge src="resource://button-add"/>
-<title>Add</title>
-</buttonLockup>
-<buttonLockup>
+
+<buttonLockup template="${this.BASEURL}ratingTemplate.js" presentation="modalDialogPresenter" accessibilityText="Accessible alert template">
 <badge src="resource://button-rate"/>
 <title>Rate</title>
 </buttonLockup>
@@ -22,44 +30,49 @@ var compilationTemplate = function(){ return `<?xml version="1.0" encoding="UTF-
 </itemBanner>
 </relatedContent>
 <header>
-<title>WWDC Roadtrip Soundtrack</title>
-<subtitle>Various Artists</subtitle>
+    <title>${info.title}</title>
+    <subtitle>${mediaFile.subtitle}</subtitle>
 <row>
-<text>Instrumental</text>
-<text>5 Songs</text>
+   
+<text>6 Songs</text>
 <text>2015</text>
 </row>
 </header>
 <section>
-<description>Songs from your favorite movie</description>
+    <description>${info.description}</description>
 </section>
 <section>
-<listItemLockup>
-<ordinal minLength="2">1</ordinal>
-<title>Opening sequence</title>
-<decorationLabel>11:14</decorationLabel>
+    <listItemLockup mediaURL="${mediaFile.media0.url}">
+    <ordinal minLength="2">1</ordinal>
+    <title>${decodeURIComponent(mediaFile.media0.title)}</title>
+    <decorationLabel>${mediaFile.media0.length}</decorationLabel>
 </listItemLockup>
-<listItemLockup>
-<ordinal minLength="2">2</ordinal>
-<title>Fight song</title>
-<decorationLabel>3:47</decorationLabel>
-</listItemLockup>
-<listItemLockup>
-<ordinal minLength="2">3</ordinal>
-<title>Love theme</title>
-<decorationLabel>6:48</decorationLabel>
-</listItemLockup>
-<listItemLockup>
-<ordinal minLength="2">4</ordinal>
-<title>Car chase</title>
-<decorationLabel>5:21</decorationLabel>
-</listItemLockup>
-<listItemLockup>
-<ordinal minLength="2">5</ordinal>
-<title>End credit theme</title>
-<decorationLabel>8:03</decorationLabel>
-</listItemLockup>
-</section>
+    <listItemLockup mediaURL="${mediaFile.media1.url}">>
+    <ordinal minLength="2">2</ordinal>
+    <title>${decodeURIComponent(mediaFile.media1.title)}</title>
+    <decorationLabel>${mediaFile.media1.length}</decorationLabel>
+    </listItemLockup>
+    <listItemLockup mediaURL="${mediaFile.media2.url}">>
+    <ordinal minLength="2">3</ordinal>
+    <title>${decodeURIComponent(mediaFile.media2.title)}</title>
+    <decorationLabel>${mediaFile.media2.length}</decorationLabel>
+    </listItemLockup>
+    <listItemLockup mediaURL="${mediaFile.media3.url}">>
+    <ordinal minLength="2">4</ordinal>
+    <title>${decodeURIComponent(mediaFile.media3.title)}</title>
+    <decorationLabel>${mediaFile.media3.length}</decorationLabel>
+    </listItemLockup>
+    <listItemLockup mediaURL="${mediaFile.media4.url}">>
+    <ordinal minLength="2">5</ordinal>
+    <title>${decodeURIComponent(mediaFile.media4.title)}</title>
+    <decorationLabel>${mediaFile.media4.length}</decorationLabel>
+    </listItemLockup>
+    <listItemLockup mediaURL="${mediaFile.media5.url}">>
+    <ordinal minLength="2">6</ordinal>
+    <title></title>
+    <decorationLabel>${mediaFile.media5.length}</decorationLabel>
+    </listItemLockup>
+    </section>
 </list>
 </compilationTemplate>
 </document>`

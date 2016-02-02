@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9487C931C607BF200B81736 /* application.js in Resources */ = {isa = PBXBuildFile; fileRef = D9487C901C607BF200B81736 /* application.js */; };
+		D9487C941C607BF200B81736 /* Presenter.js in Resources */ = {isa = PBXBuildFile; fileRef = D9487C911C607BF200B81736 /* Presenter.js */; };
+		D9487C951C607BF200B81736 /* ResourceLoader.js in Resources */ = {isa = PBXBuildFile; fileRef = D9487C921C607BF200B81736 /* ResourceLoader.js */; };
+		D9487C981C60CF2300B81736 /* Catalog.xml.js in Resources */ = {isa = PBXBuildFile; fileRef = D9487C971C60CF2300B81736 /* Catalog.xml.js */; };
+		D9487C9A1C60E6C100B81736 /* albumTemplate.js in Resources */ = {isa = PBXBuildFile; fileRef = D9487C991C60E6C100B81736 /* albumTemplate.js */; };
 		D94A81D81C5B77660074B6C5 /* firstScreen.js in Resources */ = {isa = PBXBuildFile; fileRef = D94A81D41C5B77660074B6C5 /* firstScreen.js */; };
 		D94A81D91C5B77660074B6C5 /* mainScript.js in Resources */ = {isa = PBXBuildFile; fileRef = D94A81D51C5B77660074B6C5 /* mainScript.js */; };
 		D94A81DA1C5B77660074B6C5 /* SUB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D94A81D61C5B77660074B6C5 /* SUB.jpg */; };
@@ -31,9 +36,15 @@
 		D94A82021C5BA4470074B6C5 /* compilationTemplate.js in Resources */ = {isa = PBXBuildFile; fileRef = D94A82011C5BA4470074B6C5 /* compilationTemplate.js */; };
 		D9532B661C5A162D0099AB41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9532B651C5A162D0099AB41 /* AppDelegate.swift */; };
 		D9532B6D1C5A162D0099AB41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9532B6C1C5A162D0099AB41 /* Assets.xcassets */; };
+		D97EB8E71C5F2CF900E72CAD /* MediaTreck.json in Resources */ = {isa = PBXBuildFile; fileRef = D97EB8E61C5F2CF900E72CAD /* MediaTreck.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9487C901C607BF200B81736 /* application.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = application.js; sourceTree = "<group>"; };
+		D9487C911C607BF200B81736 /* Presenter.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Presenter.js; sourceTree = "<group>"; };
+		D9487C921C607BF200B81736 /* ResourceLoader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ResourceLoader.js; sourceTree = "<group>"; };
+		D9487C971C60CF2300B81736 /* Catalog.xml.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Catalog.xml.js; sourceTree = "<group>"; };
+		D9487C991C60E6C100B81736 /* albumTemplate.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = albumTemplate.js; sourceTree = "<group>"; };
 		D94A81D41C5B77660074B6C5 /* firstScreen.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = firstScreen.js; sourceTree = "<group>"; };
 		D94A81D51C5B77660074B6C5 /* mainScript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mainScript.js; sourceTree = "<group>"; };
 		D94A81D61C5B77660074B6C5 /* SUB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SUB.jpg; sourceTree = "<group>"; };
@@ -60,6 +71,7 @@
 		D9532B651C5A162D0099AB41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9532B6C1C5A162D0099AB41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9532B6E1C5A162D0099AB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97EB8E61C5F2CF900E72CAD /* MediaTreck.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MediaTreck.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +85,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D9487C961C607C0800B81736 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				D9487C901C607BF200B81736 /* application.js */,
+				D9487C911C607BF200B81736 /* Presenter.js */,
+				D9487C921C607BF200B81736 /* ResourceLoader.js */,
+			);
+			name = js;
+			sourceTree = "<group>";
+		};
 		D94A81D31C5B77660074B6C5 /* server */ = {
 			isa = PBXGroup;
 			children = (
+				D97EB8E61C5F2CF900E72CAD /* MediaTreck.json */,
 				D94A81FC1C5B9F810074B6C5 /* scripts */,
 				D94A81FB1C5B9F260074B6C5 /* templates */,
 				D94A81DE1C5B7D3C0074B6C5 /* images */,
@@ -107,6 +130,8 @@
 		D94A81FB1C5B9F260074B6C5 /* templates */ = {
 			isa = PBXGroup;
 			children = (
+				D9487C971C60CF2300B81736 /* Catalog.xml.js */,
+				D9487C991C60E6C100B81736 /* albumTemplate.js */,
 				D94A81DC1C5B7CB10074B6C5 /* stackTemplate.js */,
 				D94A81D71C5B77660074B6C5 /* template.tvml */,
 				D94A81F91C5B9C1E0074B6C5 /* ratingTemplate.js */,
@@ -120,6 +145,7 @@
 		D94A81FC1C5B9F810074B6C5 /* scripts */ = {
 			isa = PBXGroup;
 			children = (
+				D9487C961C607C0800B81736 /* js */,
 				D94A81D41C5B77660074B6C5 /* firstScreen.js */,
 				D94A81D51C5B77660074B6C5 /* mainScript.js */,
 			);
@@ -219,15 +245,21 @@
 				D94A81F51C5B7D3C0074B6C5 /* ryan.png in Resources */,
 				D94A82021C5BA4470074B6C5 /* compilationTemplate.js in Resources */,
 				D94A81EC1C5B7D3C0074B6C5 /* alexis.png in Resources */,
+				D9487C931C607BF200B81736 /* application.js in Resources */,
+				D9487C951C607BF200B81736 /* ResourceLoader.js in Resources */,
 				D94A81F61C5B7D3C0074B6C5 /* saul.png in Resources */,
 				D94A81F71C5B7D3C0074B6C5 /* tammy.png in Resources */,
 				D94A81F31C5B7D3C0074B6C5 /* matthijs.png in Resources */,
 				D94A81DB1C5B77660074B6C5 /* template.tvml in Resources */,
 				D94A81EF1C5B7D3C0074B6C5 /* ellen.png in Resources */,
+				D9487C981C60CF2300B81736 /* Catalog.xml.js in Resources */,
+				D9487C9A1C60E6C100B81736 /* albumTemplate.js in Resources */,
 				D94A81DA1C5B77660074B6C5 /* SUB.jpg in Resources */,
 				D94A81FA1C5B9C1E0074B6C5 /* ratingTemplate.js in Resources */,
 				D94A81FE1C5B9FF90074B6C5 /* menuBarTemplate.js in Resources */,
+				D97EB8E71C5F2CF900E72CAD /* MediaTreck.json in Resources */,
 				D9532B6D1C5A162D0099AB41 /* Assets.xcassets in Resources */,
+				D9487C941C607BF200B81736 /* Presenter.js in Resources */,
 				D94A81D91C5B77660074B6C5 /* mainScript.js in Resources */,
 				D94A82001C5BA22A0074B6C5 /* descriptiveTemplate.js in Resources */,
 				D94A81D81C5B77660074B6C5 /* firstScreen.js in Resources */,

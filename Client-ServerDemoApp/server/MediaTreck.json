@@ -1,0 +1,66 @@
+{
+    "media":
+    {
+        
+        "info":
+            {
+                  "title":"My Favorite soundtracks",
+                  "description":"Songs from my favorite list"
+              },
+        
+       
+        "mediaFiles" :[{
+                       "banner" : "http://localhost:8000/Badlapur/Folder.jpg",
+                       "subtitle" : "Album : Badlapur",
+                       
+                    "media0" : {"title":"01%20-%20Badlapur%20-%20Jee%20Karda%20%5BDJMaza.Info%5D.mp3",
+                             "length":"5:12",
+                             "url":"http://localhost:8000/Badlapur/01%20-%20Badlapur%20-%20Jee%20Karda%20%5BDJMaza.Info%5D.mp3"},
+                    "media1" : {"title":"02%20-%20Badlapur%20-%20Jeena%20Jeena%20%5BDJMaza.Info%5D.mp3",
+                             "length":"4:10",
+                             "url":"http://localhost:8000/Badlapur/02%20-%20Badlapur%20-%20Jeena%20Jeena%20%5BDJMaza.Info%5D.mp3"},
+                    "media2" : {"title":"03%20-%20Badlapur%20-%20Jee%20Karda%20%28Rock%20Version%29%20%5BDJMaza.Info%5D.mp3",
+                             "length":"4:13",
+                             "url":"http://localhost:8000/Badlapur/03%20-%20Badlapur%20-%20Jee%20Karda%20%28Rock%20Version%29%20%5BDJMaza.Info%5D.mp3"},
+                    "media3" : {"title":"04%20-%20Badlapur%20-%20Judaai%20%5BDJMaza.Info%5D.mp3",
+                             "length":"5:00",
+                             "url":"http://localhost:8000/Badlapur/04%20-%20Badlapur%20-%20Judaai%20%5BDJMaza.Info%5D.mp3"},
+                    "media4" : {"title":"05%20-%20Badlapur%20-%20Jeena%20Jeena%20%28Remix%29%20%5BDJMaza.Info%5D.mp3",
+                             "length":"3:45",
+                             "url":"http://localhost:8000/Badlapur/05%20-%20Badlapur%20-%20Jeena%20Jeena%20%28Remix%29%20%5BDJMaza.Info%5D.mp3"},
+                    "media5" : {"title":"media6",
+                             "length":"6:22",
+                             "url":"http://localhost:8000/Badlapur/05%20-%20Badlapur%20-%20Jeena%20Jeena%20%28Remix%29%20%5BDJMaza.Info%5D.mp3"}
+              
+                             },
+                       {
+                       "banner" : "http://localhost:8000/Tanu%20Weds%20Manu%20Returns%20%5B2015-MP3-VBR-320Kbps%5D%20-%20%5BDJMaza%5D/Folder.jpg",
+                       "subtitle" : "Album : Tanu Weds Manu Returns [2015-MP3-VBR-320Kbps] ",
+                       
+                       "media0" : {"title":"Tanu%20Weds%20Manu%20Returns%20%5B2015-MP3-VBR-320Kbps%5D%20-%20%5BDJMaza%5D/01%20-%20TWMR%20-%20Banno%20%5BDJMaza.Info%5D.mp3",
+                       "length":"5:12",
+                       "url":"http://localhost:8000/Tanu%20Weds%20Manu%20Returns%20%5B2015-MP3-VBR-320Kbps%5D%20-%20%5BDJMaza%5D/01%20-%20TWMR%20-%20Banno%20%5BDJMaza.Info%5D.mp3"},
+                       
+                       "media1" : {"title":"Tanu%20Weds%20Manu%20Returns%20%5B2015-MP3-VBR-320Kbps%5D%20-%20%5BDJMaza%5D/02%20-%20TWMR%20-%20Move%20On%20%5BDJMaza.Info%5D.mp3",
+                       "length":"4:10",
+                       "url":"http://localhost:8000/Tanu%20Weds%20Manu%20Returns%20%5B2015-MP3-VBR-320Kbps%5D%20-%20%5BDJMaza%5D/02%20-%20TWMR%20-%20Move%20On%20%5BDJMaza.Info%5D.mp3"},
+                       
+                       "media2" : {"title":"Tanu%20Weds%20Manu%20Returns%20%5B2015-MP3-VBR-320Kbps%5D%20-%20%5BDJMaza%5D/03%20-%20TWMR%20-%20Mat%20Ja%20Re%20%5BDJMaza.Info%5D.mp3",
+                       "length":"4:13",
+                       "url":"http://localhost:8000/Tanu%20Weds%20Manu%20Returns%20%5B2015-MP3-VBR-320Kbps%5D%20-%20%5BDJMaza%5D/03%20-%20TWMR%20-%20Mat%20Ja%20Re%20%5BDJMaza.Info%5D.mp3"},
+                       "media3" : {"title":"04%20-%20Badlapur%20-%20Judaai%20%5BDJMaza.Info%5D.mp3",
+                       "length":"5:00",
+                       "url":"http://localhost:8000/Badlapur/04%20-%20Badlapur%20-%20Judaai%20%5BDJMaza.Info%5D.mp3"},
+                       "media4" : {"title":"05%20-%20Badlapur%20-%20Jeena%20Jeena%20%28Remix%29%20%5BDJMaza.Info%5D.mp3",
+                       "length":"3:45",
+                       "url":"http://localhost:8000/Badlapur/05%20-%20Badlapur%20-%20Jeena%20Jeena%20%28Remix%29%20%5BDJMaza.Info%5D.mp3"},
+                       "media5" : {"title":"media6",
+                       "length":"6:22",
+                       "url":"http://localhost:8000/Badlapur/05%20-%20Badlapur%20-%20Jeena%20Jeena%20%28Remix%29%20%5BDJMaza.Info%5D.mp3"}
+                       
+                       }                  
+                       ]
+          
+    }
+    
+    }
